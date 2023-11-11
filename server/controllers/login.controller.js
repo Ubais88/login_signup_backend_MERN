@@ -14,7 +14,6 @@ exports.Login = async(req , res) => {
             if(user.password === password){
                 res.status(200).json({
                     success:true,
-                    // data:user,
                     message:"Login successful"
                 })
             }
